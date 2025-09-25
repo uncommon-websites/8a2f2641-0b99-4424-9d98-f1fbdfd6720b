@@ -75,5 +75,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction 
+	title="Get started today—your students (and sanity) will thank you"
+	subtitle="Join 100,000+ teachers getting their time back"
+	description="You didn't become a teacher to copy-paste learning objectives or grade past midnight. Let us take that off your plate. Teacher's Assistant helps you reclaim hours every week with AI-powered automation."
+	imageSrc="/generated/image-a-confident-and-happy-elementary-school-.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Try it free",
+			variant: "primary"
+		},
+		{
+			href: "/demo",
+			label: "See how it works",
+			variant: "secondary"
+		}
+	]}
+/>
