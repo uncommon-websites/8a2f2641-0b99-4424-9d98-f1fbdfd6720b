@@ -11,22 +11,21 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Teacher-first thinking",
+			description: "Every feature starts with real teacher workflows, not boardroom assumptions."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Classroom empowerment",
+			description: "Building tools that help educators do what they do best—inspire and teach."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Educational impact",
+			description: "Measuring success by the time we give back to teachers and their students."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
 	title="Solving world hunger"
 	subtitle="one step at a time"
 	imageSrc="https://www.unc.mn/image-placeholder.svg"
@@ -34,7 +33,6 @@
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
 		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
 		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
@@ -44,61 +42,33 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
-	subtitle="Your partners in innovation."
+	subtitle="Dedicated to empowering educators."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Matt Sornson",
+			position: "CEO",
+			bio: "Passionate about transforming education through AI-powered tools that give teachers their time back.",
+			image: "/generated/image-warm-professional-ceo-headshot-of-a-conf.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Aaron Rasmussen",
+			position: "President",
+			bio: "Dedicated to building technology that understands teacher workflows and reduces administrative burden.",
+			image: "/generated/image-professional-executive-headshot-of-a-con.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to reclaim your time?"
+	subtitle="Join 100,000+ teachers who've made the switch"
+	description="Stop drowning in lesson plans and grading. Teacher's Assistant handles the admin work so you can focus on what matters most—your students."
+	imageSrc="/generated/image-a-warm-naturally-lit-elementary-classroo.webp"
 />
