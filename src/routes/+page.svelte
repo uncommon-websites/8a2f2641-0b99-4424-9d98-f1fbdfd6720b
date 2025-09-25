@@ -10,10 +10,10 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Give teachers their time back"
+	subtitle="Plan lessons. Grade faster. Finish early."
+	imageSrc="/generated/image-a-confident-elementary-teacher-stands-in.webp"
+	centered={false}
 />
 <LogoScroller label="" generating />
 
